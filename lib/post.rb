@@ -18,8 +18,10 @@ class Post
     @author 
   end 
   
-  # def author_name
-  #   @author = author_name 
-  # end 
+  def author_name
+    
+    @author = author_name 
+  end
+  
 end 
     
