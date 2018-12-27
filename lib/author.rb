@@ -6,6 +6,10 @@ class Author
     @posts = []
   end 
   
+  def add_song(song)
+    @songs << song
+    song.artist = self
+  end
   #def add_post
   
   #def add_post_by_title
