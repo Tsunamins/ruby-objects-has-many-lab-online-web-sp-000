@@ -20,6 +20,7 @@ class Post
   
   def author_name
     @author = author
+    return author.name
     
     
   end
