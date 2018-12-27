@@ -18,7 +18,7 @@ class Author
   end
   
   
-  #def add_post_by_title
+
   
   #def self.post_count
   
