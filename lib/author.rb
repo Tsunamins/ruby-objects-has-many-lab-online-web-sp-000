@@ -20,7 +20,9 @@ class Author
   
 
   
-  #def self.post_count
+  def self.post_count
+    return Post.all.length
+  end 
   
   
   def posts 
