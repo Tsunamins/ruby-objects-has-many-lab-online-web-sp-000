@@ -20,7 +20,7 @@ class Post
   
   def author_name
     @author = author
-    if author.name == nil 
+    if author == nil 
       return nil 
     else
     return author.name
