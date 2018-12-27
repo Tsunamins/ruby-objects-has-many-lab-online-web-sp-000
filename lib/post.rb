@@ -22,7 +22,6 @@ class Post
     @author = author
     return author.name
     
-    
   end
   
 end 
