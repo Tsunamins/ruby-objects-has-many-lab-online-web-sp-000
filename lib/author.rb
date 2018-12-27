@@ -7,9 +7,10 @@ class Author
   end 
   
   def add_post(post)
-    @posts << song
-    song.author = self
+    @posts << post
+    post.author = self
   end
+  
   #def add_post
   
   #def add_post_by_title
